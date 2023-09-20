@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --color-bg: #fff;
+  --color-text-white: #fff;
+  --color-text: #000;
+  --color-text-secondary: #777777;
+  --color-light-grey: #F1F1F1;
+
+
+  --color-primary: #0A2640;
+  --color-primary-light: #0DBBFC;
+  --color-primary-lighter: #8FB6D5;
+  --color-secondary: #65E4A3;
+
+  --color-link: #0A2640;
+  --color-link-focus: green;
+
+  /* Fonts */
+  --font-family-default: 'Manrope', sans-serif;
+  --font-family-alternate: 'Manrope', sans-serif;
+  --font-weight-label: bold;
+
+  /* Sizes */
+  --size-font-base: 16px;
+  --size-font-label: calc(var(--size-font-base) + 2);
+
+  --size-font-h1: calc(var(--size-font-base) * 2);
+  --size-font-h2: calc(var(--size-font-base) * 1.75);
+  --size-font-h3: calc(var(--size-font-base) * 1.5);
+  --size-font-h4: calc(var(--size-font-base) * 1.25);
+  --size-font-h5: calc(var(--size-font-base) * 1);
+  --size-font-h6: calc(var(--size-font-base) * 0.75);
+
+  --color-button: var(--color-primary);
+
+}

@@ -1,0 +1,209 @@
+@import url(reset.css);
+@import url(variables.css);
+
+/* Style Guide */
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: var(--size-font-base);
+  font-family: var(--font-family-default);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-alternate);
+  font-weight: bold;
+  /* margin-bottom: 1em; */
+}
+
+h1 {
+  font-size: var(--size-font-h1);
+}
+
+h2 {
+  font-size: var(--size-font-h2);
+}
+
+h3 {
+  font-size: var(--size-font-h3);
+  font-weight: 100;
+}
+
+h4 {
+  font-size: var(--size-font-h4);
+}
+
+h5 {
+  font-size: var(--size-font-h5);
+}
+
+h6 {
+  font-size: var(--size-font-h6);
+}
+
+/* Links */
+a:link,
+a:visited {
+  /* color: var(--color-link); */
+  text-decoration: none;
+}
+
+a:focus,
+a:hover,
+a:active {
+  color: var(--color-link-focus);
+}
+
+/* header*/
+.header {
+  background-color: var(--color-bg);
+}
+
+.centered {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding-inline: 5rem;
+  box-sizing: border-box;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2rem;
+}
+
+.header__branding svg path {
+  fill: var(--color-primary);
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li {
+  padding: 13px 10px;
+}
+
+.menu li a {
+  color: var(--color-primary);
+  font-size: 20px;
+}
+
+.menu li a.button {
+  font-family: var(--font-family-default);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: var(--color-primary);
+  color: var(--color-primary);
+  border: none;
+  border-radius: 50px;
+}
+
+.header__branding span {
+  color: var(--color-primary);
+  font-family: var(--font-family-default);
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.hero {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__text {
+  padding-block: 30px;
+  width: 50%;
+}
+
+h2 {
+  font-family: var(--font-family-default);
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0rem;
+
+}
+
+p {
+  font-family: var(--font-family-default);
+  font-size: var(--size-font-base);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0rem;
+}
+
+.hero__info h2 {
+  color: var(--color-primary);
+}
+
+.hero__info p {
+
+  color: var(--color-primary);
+  padding-top: 20px;
+}
+
+.hero__image {
+  height: 400px;
+  width: 40%;
+}
+
+.hero__image img {
+  height: 100%;
+  width: 100%;
+}
+
+.hero__buttons {
+  margin-top: 20px;
+}
+
+.button {
+  font-weight: 700;
+  padding: 16px 56px;
+  border-radius: 56px;
+  font-family: var(--font-family-default);
+  font-size: 20px;
+}
+
+.btn-primary {
+  border: 2px solid #0A2640;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.btn-secondary {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+
+}
+
+.logo-wall {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 60px;
+}
+
+.logo-wall__boldo-one,
+.logo-wall__presto-sex {
+  opacity: 0.2;
+}
+
+.logo-wall__presto-two,
+.logo-wall__boldo-five {
+  opacity: 0.6;
+}
