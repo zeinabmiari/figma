@@ -327,18 +327,16 @@ display: flex;
   justify-content: space-evenly;
 }
 .sliders__imgtxt__txt{
-  color: var(--color-text);
-font-family: var(--font-family-alternate);
-font-size: 18px;
-font-weight: 400;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
+border-radius: 12px;
+margin-top: 30px;
+width: 250px;
+border-radius: 12px;
+background-color:var(--color-bg);
 }
 .sliders__imgtxt_title{
-  padding: 6px;
+padding: 10px;
   background-color:var(--color-text-white);
-  margin-right: 150px;
+  margin-right: 125px;
 }
 .sliders__imgtxt__img{
   display: flex;
@@ -360,6 +358,7 @@ letter-spacing: 0em;
 text-align: left;
 margin-right: 10px;
 }
+
 .accordians{
   margin-top: 30px;
 }
@@ -427,48 +426,72 @@ margin-left: 100px;
 }
 .footer{
   display: flex;
-  top: 475px;
-  height: 300px;
-  
+  justify-content: space-between;
+  padding: 50px 0px 50px 0px;
+  margin-top: 25px;
 }
-.footer__brand{
-  height: 500px;
-  margin-top: 80px;
-  margin-left: 100px;
+
+.footer-left{
+  width: 30%;
+  text-align: left;
 }
-.footer__brand__title h3,h5{
-  color: var(--color-text-secondary);
-  font-family: var(--font-family-alternate);
-  font-weight: 100;
-  margin-top:50px;
+
+.footer-left svg path{
+  fill: var(--color-bg);
 }
-.footer__branding span{
+
+.footer-left:hover svg path{
+  fill: var(--color-primary)
+}
+.footer-left span{
   color: var(--color-primary);
-  font-family: var(--font-family-default);
-  font-weight: 700;
-  font-size: 35px;
 }
-.footer__branding svg path {
-  fill: var(--color-primary);
+
+.footer-left p{
+  padding-top: 20px;
+  color: var(  --color-text-secondary);
 }
-.footer__list{
-width: 50%;
-height: 300px;
-display: flex;
-justify-content: space-between;
-margin-top: 100px;
-margin-left: 100px;
+
+.footer-right{
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
-.footer__list__land h4{
-font-family: var(--font-family-alternate);
-font-weight: 700;
+
+.footer-menu{
+  width: 100%;
 }
-.footer__list__land ul{
-margin-top: 40px;
+
+.footer-menu h3{
+  font-family: var(--font-family-menu);
+  font-size: var(--size-font-h4);
+  font-weight: bold;
+  padding-left: 15px;
+  padding-bottom: 30px;
 }
-.footer__list__land li{
-  margin-top: 40px;
-  font-family: var(--font-family-default);
-  font-weight:400;
+
+.footer-menu ul a {
+  text-align: left;
   color: var(--color-text-secondary);
-  }
+  text-decoration: none;
+  font-size: var(--size-font-base);
+  margin-bottom: 20px; 
+  display: block;
+}
+
+.hiring-button {
+  background-color: var(--color-secondary);
+  color: var(--color-link);
+  border: none;
+  border-radius: 10px;
+  padding: 4px 4px;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.hiring-button:hover {
+  color:  var(--color-link-focus);
+}
